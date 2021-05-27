@@ -1,0 +1,151 @@
+   
+        *{
+            margin: auto;
+        }
+        .display{
+            max-width:1000px;
+            margin: auto;
+            max-height: 1000px;
+            background: white;
+            border: 1px solid lightslategray;
+            
+            
+        }
+        
+        .upper{
+            position: relative;
+            height: 10vh;
+            max-width:940px;
+            
+        }
+
+        .boxLeft{
+            /* background-color: lightslategray;
+            border-radius: 0px 0px 7px 7px ;
+            opacity: 40%;
+            left:0;
+            width: 300px;
+            display: inline;
+            flex-grow: 1; */
+            position:absolute;
+            width: 301px;
+            height: 100px;
+            left: 0px;
+            top: 0px;
+
+            background: #DDDDDD;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        .boxRight{
+            /* background-color: lightslategray;
+            color:white;
+            border-radius: 0px 0px 7px 7px ;
+            opacity: 40%;
+            width: 80%;
+            display: inline;
+            flex-grow: 1; */
+
+            position: absolute;
+            width: 621px;
+            height: 100px;
+            left: 320px;
+            top: 0px;
+
+            background: #DDDDDD;
+            border-radius: 0px 0px 5px 5px;
+            
+        }
+
+        .upperTxt{
+            padding-left: 40px;
+            padding-top: 35px; 
+            color:white;
+            font-family: HelveticaNeue;
+        }
+
+        .content{
+            display: flex;
+            height:60vh;
+            padding: 40px 0px 40px 0px;
+            width:940px;
+        }
+
+        .midFirst{
+            
+            width: 70%;
+            display: inline;
+            position: relative;
+            overflow: hidden;
+            flex-grow: 1;
+            
+        }
+
+       
+
+        .next{
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .nextGray{
+            cursor: pointer;
+            display: none;
+        }
+
+        .prev{
+            cursor: pointer;
+            
+            z-index: 100;
+        }
+
+        .prevGray{
+            display: none;
+            cursor: pointer;
+        }
+
+        .gallery img.active{
+            display: inline-block;
+        }
+
+        .gallery img{
+            height: 150px;
+            border-radius: 10px;
+            display:none;
+        }
+
+        
+
+        #button{
+            border: 1px solid darkblue;
+            border-radius: 7px;
+            padding: 20px 20px 20px 20px;
+            display: inline;
+        }
+
+        .midSecond{
+            
+            width: 30%;
+            padding: 5px 0px 0px 15px;
+            display: inline;
+            flex-grow: 1;
+        }
+      
+
+        .lower{
+            background-color: #DDDDDD;
+            color:white;
+            text-align: left;
+            height: 10vh;
+            width: 940px;
+            border-radius: 7px 7px 0px 0px ; 
+        }
+
+        .lowerTxt{
+            padding-left: 40px;
+            padding-top: 35px; 
+        }
+
+        
+    
+        
